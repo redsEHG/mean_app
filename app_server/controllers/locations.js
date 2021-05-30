@@ -7,10 +7,10 @@ module.exports.homelist = function(req, res) {
 
 //получаем страницу с информацией о местоположениях
 module.exports.locationInfo = function(req, res){
-    res.render('index', { title: 'Location info'});
+    res.render('location-info', { title: 'Location info'});
 };
 
 //получем страницу добавления отзыва
 module.exports.addReview = function(req, res){
-    res.render('index', { title: 'Add review'});
+    res.render('location-review-form', { title: 'Add review'});
 };

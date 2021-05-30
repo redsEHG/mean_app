@@ -1,0 +1,228 @@
+extends layout 
+block content
+    .row.page-header 
+        .col-lg-12 
+            h1 Магазин "Анис"
+    .row 
+        .col-xs-12.col-md-9 
+            .row 
+                .col-xs-12.col-sm-6 
+                    p.rating 
+                        span.glyphicon.glyphicon-star
+                        span.glyphicon.glyphicon-star
+                        span.glyphicon.glyphicon-star
+                        span.glyphicon.glyphicon-star-empty 
+                        span.glyphicon.glyphicon-star-empty
+                    p Площадь Павлова 3
+                    .panel.panel-primary 
+                        .panel-heading 
+                            .h2.panel-title Часы работы
+                        .panel-body 
+                            p Понедельник-Воскресенье:7:00 - 21:00
+                        .panel.panel-primery 
+                            .panel-heading 
+                                h2.panel-title Услуги
+                            .panel-body 
+                                span.label.label-warning 
+                                    span.glyphicon.glyphicon-ok 
+                                    | &nbsp; Горячие напитки
+                                    | &nbsp;
+                                span.label.label-warning 
+                                    span.glyphicon.glyphicon-ok 
+                                    | &nbsp; Еда
+                                    | &nbsp;
+                                span.label.label-warning 
+                                    span.glyphicon.glyphicon-ok 
+                                    | &nbsp; бесплатный wifi
+                                    | &nbsp;
+                .col-xs-12.col-sm-6.location-map 
+                    .panel.panel-primary 
+                        .panel-heading 
+                            h2.panel-title Расположение на карте
+                        .panel-body 
+                        img.img-responsive.img-rounded(src='images/Screenshot_2021-05-30 пл Павлова, 1 · пл Павлова, 1, Новочеркасск, Ростовская обл , 346429.png')            
+    .row 
+        .col-xs-12 
+            .panel.panel-primary.review-panel 
+                .panel-heading 
+                    a.btn.btn-default.pull-right(href='/location/review/new') Добавить отзыв
+                    h2.panel-title Мой отзыв
+                .panel-body.review-container 
+                    .row 
+                        .review 
+                            well.well-sm.review-header 
+                                span.rating 
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                span.reviewAuthor Юлия Началова
+                                small.reviewTimestamp 12 мая 2021
+                            .col-xs-12 
+                                p Прекрасное место и обслуживание! Продавец молодецdoctype html
+                    .row 
+                        .review 
+                            .well.well-sm.review-header 
+                                span.rating 
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star-empty
+                                    span.glyphicon.glyphicon-star-empty 
+                                    span.glyphicon.glyphicon-star-empty
+                                span.reviewAuthor Алекс
+                                small.reviewTimestamp 14 мая 2021
+                            .col-xs-12 
+                                p Неплохой магазин но вайфая нет! 
+
+
+
+
+
+
+    .row.page-header 
+        .col-lg-12 
+            h1 Торговый центр "Арбат"
+    .row 
+        .col-xs-12.col-md-9 
+            .row 
+                .col-xs-12.col-sm-6 
+                    p.rating 
+                        span.glyphicon.glyphicon-star
+                        span.glyphicon.glyphicon-star
+                        span.glyphicon.glyphicon-star
+                        span.glyphicon.glyphicon-star
+                        span.glyphicon.glyphicon-star-empty
+                    p Спуск Ермака 44
+                    .panel.panel-primary 
+                        .panel-heading 
+                            .h2.panel-title Часы работы
+                        .panel-body 
+                            p Понедельник-Воскресенье:9:00 - 23:00
+                        .panel.panel-primery 
+                            .panel-heading 
+                                h2.panel-title Услуги
+                            .panel-body 
+                                span.label.label-warning Горячие напитки
+                                | &nbsp;
+                                span.label.label-warning Еда
+                                | &nbsp;
+                                span.label.label-warning Бесплатный wifi 
+                                | &nbsp;
+                                span.label.label-warning Одежда и обувь
+                                | &nbsp;
+                                
+                .col-xs-12.col-sm-6.location-map 
+                    .panel.panel-primary 
+                        .panel-heading 
+                            h2.panel-title Расположение на карте
+                        .panel-body 
+                        img.img-responsive.img-rounded(src='images/арбат.png')            
+    .row 
+        .col-xs-12 
+            .panel.panel-primary.review-panel 
+                .panel-heading 
+                    a.btn.btn-default.pull-right(href='/location/review/new') Добавить отзыв
+                    h2.panel-title Мой отзыв
+                .panel-body.review-container 
+                    .row 
+                        .review 
+                            well.well-sm.review-header 
+                                span.rating 
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                span.reviewAuthor Алена Свиридова
+                                small.reviewTimestamp 12 мая 2021
+                            .col-xs-12 
+                                p Хороший торговый центр, где можно отыскать все! 
+                    .row 
+                        .review 
+                            .well.well-sm.review-header 
+                                span.rating 
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star-empty
+                                    span.glyphicon.glyphicon-star-empty 
+                                    span.glyphicon.glyphicon-star-empty
+                                span.reviewAuthor Сергей
+                                small.reviewTimestamp 14 мая 2021
+                            .col-xs-12 
+                                p Неплохой магазин но вайфая нет!
+
+
+
+
+        .row.page-header 
+        .col-lg-12 
+            h1 Магазин "Перекресток"
+    .row 
+        .col-xs-12.col-md-9 
+            .row 
+                .col-xs-12.col-sm-6 
+                    p.rating 
+                        span.glyphicon.glyphicon-star
+                        span.glyphicon.glyphicon-star
+                        span.glyphicon.glyphicon-star
+                        span.glyphicon.glyphicon-star
+                        span.glyphicon.glyphicon-star-empty
+                    p Проспект платовский 59А
+                    .panel.panel-primary 
+                        .panel-heading 
+                            .h2.panel-title Часы работы
+                        .panel-body 
+                            p Понедельник-Воскресенье:9:00 - 23:00
+                        .panel.panel-primery 
+                            .panel-heading 
+                                h2.panel-title Услуги
+                            .panel-body 
+                                span.label.label-warning Горячие напитки
+                                | &nbsp;
+                                span.label.label-warning Еда
+                                | &nbsp;
+                                span.label.label-warning Бесплатный wifi 
+                                | &nbsp;
+                                span.label.label-warning Одежда и обувь
+                                | &nbsp;
+                                
+                .col-xs-12.col-sm-6.location-map 
+                    .panel.panel-primary 
+                        .panel-heading 
+                            h2.panel-title Расположение на карте
+                        .panel-body 
+                        img.img-responsive.img-rounded(src='images/перекресток.png')            
+    .row 
+        .col-xs-12 
+            .panel.panel-primary.review-panel 
+                .panel-heading 
+                    a.btn.btn-default.pull-right(href='/location/review/new') Добавить отзыв
+                    h2.panel-title Мой отзыв
+                .panel-body.review-container 
+                    .row 
+                        .review 
+                            well.well-sm.review-header 
+                                span.rating 
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-star
+                                span.reviewAuthor Анатолий Жук
+                                small.reviewTimestamp 23мая 2021
+                            .col-xs-12 
+                                p Неплохой 
+                    .row 
+                        .review 
+                            .well.well-sm.review-header 
+                                span.rating 
+                                    span.glyphicon.glyphicon-star
+                                    span.glyphicon.glyphicon-sta-empty
+                                    span.glyphicon.glyphicon-star-empty
+                                    span.glyphicon.glyphicon-star-empty 
+                                    span.glyphicon.glyphicon-star-empty
+                                span.reviewAuthor Андрей
+                                small.reviewTimestamp 14 мая 2021
+                            .col-xs-12 
+                                p Есть где побродить жене! 
